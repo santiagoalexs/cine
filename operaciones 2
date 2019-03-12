@@ -1,0 +1,95 @@
+#include<iostream>
+using namespace std;
+main()
+{
+	char operaciones;
+	int S,R,M,D;
+	cout<<"ingrese la operacion de acurdo a su gusto \n";
+	cout<<" s: Suma \n";
+	cout<<" r: Resta \n";
+	cout<<" m: Division \n";
+	cout<<" d: Multiplicacion \n";
+	cout<<" p: perimetro del triangulo \n";
+	cin>>operaciones;
+	switch(operaciones)
+	{
+	
+		
+		case 'S':
+		case 's':
+		int a,b,suma;
+		cout<<"suma \n";
+		cout<<"ingrese el primer numero \n";
+		cin>>a;
+		cout<<"ingrese el segundo numero \n";
+		cin>>b;
+		suma=a+b;
+		cout<<"la suma es: \n"<<suma;
+		break;
+	
+	
+		case 'R':
+		case 'r':	
+		int c,d,resta;
+		cout<<"resta \n";
+		cout<<"ingrese el primer numero \n";
+		cin>>c;
+		cout<<"ingrese el segundo numero \n";
+		cin>>d;
+		resta=c-d;
+		cout<<"la resta es: \n"<<resta;
+	    break;
+	
+	
+		case 'M':
+		case 'm':
+		int e,f,multiplicacion;
+		cout<<"multiplicacion \n";
+		cout<<"ingrese el primer numero \n";
+		cin>>e;
+		cout<<"ingrese el segundo numero \n";
+		cin>>f;
+		multiplicacion=e*f;
+		cout<<"la multiplicacion es: \n"<<multiplicacion;
+		break;
+	
+	
+		case 'D':
+		case 'd':
+		int g,h,division;
+		cout<<"division \n";
+		cout<<"ingrese el primer numero \n";
+		cin>>g;
+		cout<<"ingrese el segundo numero \n";
+		cin>>h;
+		division=g/h;
+		cout<<"la division es: \n"<<division;
+		break;
+		
+		case 'P':
+		case 'p':
+		int i,j,k,perimetro;
+		cout<<"perimetro del triangulo \n";
+		cout<<"ingrese el primer lado \n";
+		cin>>i;
+		cout<<"ingrese el segundo lado \n";
+		cin>>j;
+		cout<<"ingrese el tercer lado \n";
+		cin>>k;
+		perimetro=i+j+k;
+		cout<<"la suma es: \n"<<perimetro;
+		break;
+		default:
+		cout<<"opcion equivocada \n";
+		 break;
+		  
+	}
+		
+		
+	
+
+}
+		
+		
+	
+
