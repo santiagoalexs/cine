@@ -1,0 +1,48 @@
+#include <iostream> 
+using namespace std; 
+main () 
+{ 
+    int a, b, c, mayor, menor, medio; 
+    cout << "digite el primer numero: "; 
+    cin >> a; 
+    cout << "digite el segundo numero: "; 
+    cin >> b; 
+    cout << "digite el tercer numero: "; 
+    cin >> c; 
+    if ((a<b)&&(b<c))
+     {
+     	cout<<"el menor es"<<a<<"\n";
+     	cout<<"el medio es"<<b<<"\n";
+        cout<<"el mayor es"<<c<<"\n";
+	 }
+       else if ((b<c)&&(c<a))
+     {
+     	cout<<"el menor es"<<b<<"\n";
+     	cout<<"el medio es"<<c<<"\n";
+        cout<<"el mayor es"<<a<<"\n";
+     } 
+	 else if ((c<a)&&(a<b)) 
+	 {
+	 	cout<<"el menor es"<<c<<"\n";
+     	cout<<"el medio es"<<a<<"\n";
+        cout<<"el mayor es"<<b<<"\n";
+	 }
+	 else if ((b<a)&&(a<c))
+     {
+     	cout<<"el menor es"<<b<<"\n";
+     	cout<<"el medio es"<<a<<"\n";
+        cout<<"el mayor es"<<c<<"\n";
+	 }
+	 else if ((a<c)&&(c<b))
+	 {
+	 	
+		}   
+	 
+       
+    
+    
+
+    cout << "Mayor: " << mayor << "\n" << "Medio: " << medio << "\n" << "Menor: " << menor << endl; 
+    
+} 
+
