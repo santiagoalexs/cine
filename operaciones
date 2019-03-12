@@ -1,0 +1,24 @@
+En#include<iostream>
+using namespace std;
+main()
+{
+int a,b,s,m,r,d;
+cout<<"calculo de suma";
+cout<<endl;
+cout<<"ingrese el primer numero";
+cin>>a;
+cout<<"ingrese el segundo numero";
+cout<<endl;
+cin>>b;
+s=a+b;
+cout<<"la suma es:"<<s;
+cout<<endl;
+r=a-b;
+cout<<"la resta es:"<<r;
+cout<<endl;
+m=a*b;
+cout<<"la multiplicacion es:"<<m;
+cout<<endl;
+d=a/b;
+cout<<"la division es:"<<d;
+}
